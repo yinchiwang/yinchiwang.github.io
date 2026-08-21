@@ -9,18 +9,6 @@
   --max: 780px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #16161a;
-    --bg-soft: #1e1e23;
-    --text: #e8e8e4;
-    --text-muted: #a3a39c;
-    --rule: #32323a;
-    --accent: #e0a1a1;
-    --accent-soft: #c98585;
-  }
-}
-
 * { box-sizing: border-box; }
 
 body {
@@ -290,10 +278,6 @@ ul.courses li {
 }
 
 .btn:hover { background: var(--accent-soft); border-bottom-color: transparent; }
-
-@media (prefers-color-scheme: dark) {
-  .btn { color: #16161a; }
-}
 
 /* ---------- Footer ---------- */
 
