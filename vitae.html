@@ -21,13 +21,18 @@
         <li><a href="teaching.html">Teaching</a></li>
       </ul>
     </nav>
+
+    <div class="search-wrap">
+      <input type="search" id="site-search" placeholder="Search…" aria-label="Search this site" autocomplete="off">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
   </div>
 </header>
 
 <main>
   <div class="wrap">
 
-    <h1>Curriculum Vitae</h1>
+    <h1 id="vitae">Curriculum Vitae</h1>
 
     <div class="cv-card">
       <p>My full curriculum vitae is available as a PDF.</p>
@@ -35,18 +40,18 @@
       <p class="note">Last updated February 2025</p>
     </div>
 
-    <h2>Appointments</h2>
+    <h2 id="appointments">Appointments</h2>
     <ul class="plain">
       <li>Associate Professor, Department of Economics, National Taipei University</li>
       <li>Previously: Department of Economics, The Chinese University of Hong Kong</li>
     </ul>
 
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
     <ul class="plain">
       <li>Ph.D. in Economics, Washington University in St. Louis</li>
     </ul>
 
-    <h2>Fields</h2>
+    <h2 id="fields">Fields</h2>
     <ul class="plain">
       <li><strong>Primary:</strong> Growth and Development, Macroeconomics</li>
       <li><strong>Secondary:</strong> Family and Labor Economics, Economic Theory</li>
@@ -61,5 +66,6 @@
   </div>
 </footer>
 
+<script src="search.js" defer></script>
 </body>
 </html>

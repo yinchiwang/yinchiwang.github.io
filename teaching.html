@@ -21,16 +21,21 @@
         <li><a href="teaching.html" aria-current="page">Teaching</a></li>
       </ul>
     </nav>
+
+    <div class="search-wrap">
+      <input type="search" id="site-search" placeholder="Search…" aria-label="Search this site" autocomplete="off">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
   </div>
 </header>
 
 <main>
   <div class="wrap">
 
-    <h1>Teaching</h1>
+    <h1 id="teaching">Teaching</h1>
 
     <div class="course-group">
-      <h2>National Taipei University</h2>
+      <h2 id="ntpu">National Taipei University</h2>
       <ul class="courses">
         <li>International Economics B</li>
         <li>Economic Development</li>
@@ -42,7 +47,7 @@
     </div>
 
     <div class="course-group">
-      <h2>The Chinese University of Hong Kong</h2>
+      <h2 id="cuhk">The Chinese University of Hong Kong</h2>
       <p class="where">Past courses</p>
       <ul class="courses">
         <li><span class="code">ECON 3410A</span>Money and Banking</li>
@@ -57,7 +62,7 @@
     </div>
 
     <div class="course-group">
-      <h2>Washington University in St. Louis</h2>
+      <h2 id="wustl">Washington University in St. Louis</h2>
       <p class="where">Teaching assistant</p>
       <ul class="courses">
         <li>Topics in Growth and Development <span class="code">Spring 2010, 2011</span></li>
@@ -77,5 +82,6 @@
   </div>
 </footer>
 
+<script src="search.js" defer></script>
 </body>
 </html>

@@ -21,6 +21,11 @@
         <li><a href="teaching.html">Teaching</a></li>
       </ul>
     </nav>
+
+    <div class="search-wrap">
+      <input type="search" id="site-search" placeholder="Search…" aria-label="Search this site" autocomplete="off">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
   </div>
 </header>
 
@@ -50,7 +55,7 @@
       </div>
     </div>
 
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <div class="contact">
       <dl>
         <dt>Email</dt>
@@ -80,5 +85,6 @@
   </div>
 </footer>
 
+<script src="search.js" defer></script>
 </body>
 </html>
