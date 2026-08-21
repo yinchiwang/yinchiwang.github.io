@@ -33,9 +33,8 @@ free.
 
 ## Updating content
 
-No coding tools needed — everything can be done from the browser.
-
-**Option A: edit directly on GitHub.com**
+No coding tools needed — everything can be done from the browser at
+github.com.
 
 1. Open the file you want to change (e.g. `research.html`) in this repository.
 2. Click the pencil icon (Edit this file) in the top right.
@@ -49,13 +48,6 @@ block in `research.html` and change the title, authors, journal, and links.
 **To update the CV:** go into `files/`, click **Add file → Upload files**,
 upload the new PDF. If the filename changed, also edit `vitae.html` (or
 `research.html` for a paper PDF) so the link points at the new filename.
-
-**Option B: ask Claude**
-
-Come back to a Claude Code session on this repository and describe the
-change in plain language (e.g. "add a new paper to research.html: title X,
-authors Y, journal Z, link W") — it will edit the files and push the commit
-for you.
 
 ## Local preview
 
