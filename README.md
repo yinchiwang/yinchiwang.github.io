@@ -49,6 +49,19 @@ block in `research.html` and change the title, authors, journal, and links.
 upload the new PDF. If the filename changed, also edit `vitae.html` (or
 `research.html` for a paper PDF) so the link points at the new filename.
 
+**If you add a whole new page** (e.g. `awards.html`), also add a line for it
+in `sitemap.xml`:
+
+```xml
+<url>
+  <loc>https://yinchiwang.github.io/awards.html</loc>
+</url>
+```
+
+Search engines only know a page exists if it's linked from another page or
+listed here, so a page missing from `sitemap.xml` may take much longer to
+get indexed by Google.
+
 ## Local preview
 
 Open `index.html` in a browser, or run a local server:
