@@ -50,6 +50,8 @@ header.site {
   margin: 0 0 18px;
 }
 
+.site-role .zh { display: block; }
+
 nav.site ul {
   list-style: none;
   display: flex;
